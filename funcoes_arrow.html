@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+        <script type="text/babel">
+            Let quadrado = function (x=5) {
+                return x*x
+                
+            }
+
+            Let quadrado = (x) => {
+                return x*x
+            }
+
+            Let quadrado = x => x*x 
+
+            document.write(quadrado(3))
+
+
+            Let parOuImpar = numero => {
+                if(numero % 2 ===0){
+                    return 'par'
+                } else {
+                    return 'impar'
+                }
+            }
+
+            Let parOuImpar = numero => numero % 2 === 0 ? 'par': 'impar'
+            
+            document.write(parOuImpar(7))
+
+
+
+        </script>
+    
+    </head>
+
+    <body>
+        <div id="output"></div>
+    </body>
+</html>
